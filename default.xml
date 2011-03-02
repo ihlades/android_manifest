@@ -24,9 +24,9 @@
   <project path="external/astl" name="platform/external/astl" revision="master"/>
   <project path="external/bison" name="platform/external/bison" revision="master"/>
   <project path="external/blktrace" name="platform/external/blktrace" revision="master"/>
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="master"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="master"/>
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="master"/>
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="gingerbread"/>
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="gingerbread"/>
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="gingerbread"/>
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="master"/>
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="master"/>
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="gingerbread" remote="github" />
