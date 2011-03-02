@@ -37,7 +37,7 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="master"/>
   <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="master"/>
   <project path="external/dropbear" name="platform/external/dropbear" revision="master"/>
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="master"/>
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="gingerbread"/>
   <project path="external/easymock" name="platform/external/easymock" revision="master"/>
   <project path="external/elfcopy" name="platform/external/elfcopy" revision="master"/>
   <project path="external/elfutils" name="platform/external/elfutils" revision="master"/>
