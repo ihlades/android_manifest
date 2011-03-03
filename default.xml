@@ -138,7 +138,7 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Mms" name="Redux/android_packages_apps_Mms" remote="github" revision="master"/>
   <project path="packages/apps/Music" name="Redux/android_packages_apps_Music" remote="github" revision="master"/>
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="gingerbread" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="Redux/android_packages_apps_Phone" remote="github" revision="master"/>
   <project path="packages/apps/Settings" name="Redux/android_packages_apps_Settings" remote="github" revision="master"/>
