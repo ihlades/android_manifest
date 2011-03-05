@@ -8,15 +8,14 @@
            remote="korg" />
 
   <remote name="redux"
-	   fetch="git://github.com/ihlades/"
-	   revision="master" />
+	   fetch="git://github.com/ihlades/" />
   
   <remote name="github" fetch="git://github.com/" />
 
-  <project path="build" name="Redux/android_build" remote="github" revision="master">
+  <project path="build" name="android_build" remote="redux" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" remote="redux"/>
+  <project path="bionic" name="android_bionic" remote="redux" revision="master"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -24,7 +23,7 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="redux" />
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="redux" revision="master" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -112,16 +111,16 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="redux"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="redux" revision="master"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="redux" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="redux" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="redux" revision="master" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="redux" revision="master" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="gingerbread" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="redux" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="redux" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="redux" revision="master" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="redux" revision="master" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" />
@@ -132,22 +131,22 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" revision="redux" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="redux" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="redux" revision="master" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/FM" name="android_packages_apps_FM" remote="redux" />
+  <project path="packages/apps/FM" name="android_packages_apps_FM" remote="redux" revision="master" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="redux" />
-  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="redux" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="redux" revision="master" />
+  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="redux" revision="master" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="redux" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="redux" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="redux" revision="master" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="redux" revision="master" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -169,13 +168,13 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="android_system_core" remote="redux" />
-  <project path="system/extras" name="android_system_extras" remote="redux" />
+  <project path="system/core" name="android_system_core" remote="redux" revision="master" />
+  <project path="system/extras" name="android_system_extras" remote="redux" revision="master" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="vendor/htc/bravo" name="Redux/android_vendor_htc_bravo" remote="github" revision="master"/>
-  <project path="vendor/redux" name="Redux/android_vendor_redux" remote="github" revision="master"/>
+  <project path="vendor/htc/bravo" name="android_vendor_htc_bravo" remote="redux" revision="master"/>
+  <project path="vendor/redux" name="android_vendor_redux" remote="redux" revision="master" />
 
 </manifest>
